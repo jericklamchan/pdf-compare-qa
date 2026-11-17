@@ -1,0 +1,12 @@
+{
+  "R1":  {"verdict": "not_met",  "why": "AS 4100:2020 cited instead of AS 3600:2018"},
+  "R2":  {"verdict": "not_met",  "why": "f'c is 32 MPa, required 40 MPa"},
+  "R3":  {"verdict": "not_met",  "why": "span is 9.2 m, max 8.0 m"},
+  "R4":  {"verdict": "missing",  "why": "no Site Geotechnical Summary"},
+  "R5":  {"verdict": "met",      "why": "control: design life 50 years"},
+  "R6":  {"verdict": "conflict", "why": "start date 15 March 2026 on page 1 vs 12 April 2026 on page 3"},
+  "R7":  {"verdict": "met",      "why": "control: yield 500 MPa"},
+  "R8":  {"verdict": "not_met",  "why": "load given in psf, not kN or kPa"},
+  "R9":  {"verdict": "missing",  "why": "no Design Verification Sign-off"},
+  "R10": {"verdict": "met",      "why": "control: cover 40 mm"}
+}
